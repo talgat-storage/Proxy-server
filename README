@@ -1,0 +1,16 @@
+Name: Talgat Iskindir
+ID: 20130831
+
+1. In order to complile the program, please type: make
+
+2. In order to clean all generated files except proxy.log, please type: make clean
+
+3. In order to run the code, please type: ./proxy
+
+4. By default, the proxy will be binded to the port 1234. If you want to specify
+any other port that the proxy should be binded to, please provide the port
+number as the FIRST option to the compiled program. For example, if you type
+./proxy 9876, then the proxy will be binded to the port 9876.
+
+5. The log file proxy.log is created if it does not exist and is cleared every time
+the new process of the compiled program is run.
